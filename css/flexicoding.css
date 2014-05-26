@@ -1,0 +1,298 @@
+/* flexicoding css */
+
+body {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    color: #ffff00;
+    background: #01080F url('../img/bg1280x1024.png') repeat-x top left;
+}
+
+a {
+    color: #ff8000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffff00;
+}
+
+.navbar {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 140px;
+	width: 100%;
+	color: #fff;
+/*	background-image: -ms-linear-gradient(top, #01080F 0%, #272C36 100%);
+	background-image: -moz-linear-gradient(top, #01080F 0%, #272C36 100%);
+	background-image: -o-linear-gradient(top, #01080F 0%, #272C36 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #01080F), color-stop(1, #272C36));
+	background-image: -webkit-linear-gradient(top, #01080F 0%, #272C36 100%);
+	background-image: linear-gradient(to bottom, #01080F 0%, #272C36 100%);*/
+	background: #01080F url('../img/navBarBg.png') repeat-x;
+}
+
+.logo {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 133px;
+    width: 295px;
+	background: transparent url('../img/twistedCodeStraight3DLogo.png') no-repeat top left;
+    
+}
+
+.slogan {
+    position: relative;
+    top: -70%;
+    left: 310px;
+    height: 133px;
+    width: 660px;
+	background: transparent url('../img/slogan.png') no-repeat top left;
+}
+
+/*.navbar a {
+	text-decoration: none;
+}*/
+
+.navbar h1, .navbar h2, .navbar h3, .navbar h4 {
+	color: #FFFF99; /* pale yellow */
+	text-shadow: 1px 1px 1px #29465B;
+}
+
+.navbar h3 {
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.btn_default {	
+	background: #06407a;
+	background-image: -webkit-linear-gradient(top, #06407a, #01080f);
+	background-image: -moz-linear-gradient(top, #06407a, #01080f);
+	background-image: -ms-linear-gradient(top, #06407a, #01080f);
+	background-image: -o-linear-gradient(top, #06407a, #01080f);
+	background-image: linear-gradient(to bottom, #06407a, #01080f);
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	border-radius: 20px;
+	font-family: Arial;
+	color: #FFFF99;
+	font-size: 1em;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn_default:hover {
+	color: #FFF314;
+	background: #01080f;
+	background-image: -webkit-linear-gradient(top, #01080f, #06407a);
+	background-image: -moz-linear-gradient(top, #01080f, #06407a);
+	background-image: -ms-linear-gradient(top, #01080f, #06407a);
+	background-image: -o-linear-gradient(top, #01080f, #06407a);
+	background-image: linear-gradient(to bottom, #01080f, #06407a);
+	text-decoration: none;
+}
+
+.btn_tabs {
+	border: none;
+	background: #06407a;
+	background-image: -webkit-linear-gradient(top, #06407a, #01080f);
+	background-image: -moz-linear-gradient(top, #06407a, #01080f);
+	background-image: -ms-linear-gradient(top, #06407a, #01080f);
+	background-image: -o-linear-gradient(top, #06407a, #01080f);
+	background-image: linear-gradient(to bottom, #06407a, #01080f);
+	text-shadow:
+		0px -1px 3px rgba(0,0,0,0.8),
+		0px 1px 0px rgba(143,146,179,0.3);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #FFFF99;
+	font-size: 1em;
+	padding: 10px 20px 10px 20px;
+}
+
+.mainContent {
+    position: relative;
+    top: 146px;
+    left: 10%;
+    height: 350px;
+    width: 88%;
+    color: #ffff00;
+    background: /*transparent*/#01080F;
+    padding: 0% 2% 0% 2%;
+    -moz-box-shadow: 0px 0px 3px #01080F;
+    -webkit-box-shadow: 0px 0px 3px #01080F;
+    box-shadow: 0px 0px 3px #01080F;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	/* IE 5-7 */
+	filter: alpha(opacity=75);
+	/* Netscape */
+	-moz-opacity: 0.75;
+	/* Safari 1.x */
+	-khtml-opacity: 0.75;
+	/* Good browsers */
+	opacity: 0.75;
+    overflow: hidden;
+	z-index: 995;
+}
+
+.transparent {
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	/* IE 5-7 */
+	filter: alpha(opacity=75);
+	/* Netscape */
+	-moz-opacity: 0.75;
+	/* Safari 1.x */
+	-khtml-opacity: 0.75;
+	/* Good browsers */
+	opacity: 0.75;
+}
+
+
+
+
+
+
+
+#tabs {
+	position: absolute;
+	top: 83.8%;
+	left: 65.9%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+	z-index: 1;
+}
+ 
+#tabs li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	margin-right: 1px;
+	padding: 0;
+	float: left;
+	text-align: center;
+	color: #ffff00;
+	text-decoration: none;
+}
+ 
+#tabs li a {
+	display: block;
+	padding: 2px 10px;
+}
+
+#tabs li a.current {
+	background: #d4efff;
+	color: #01080f;
+}
+
+.tabbed {
+	color: #ff8000;
+	padding: 1% 2%;
+	font-size: 1.3em;
+	text-align: center;
+	width: 40%;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #01080f);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #01080f);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #01080f);
+	background-image: -o-linear-gradient(top, #3cb0fd, #01080f);
+	background-image: linear-gradient(to bottom, #3cb0fd, #01080f);
+	text-shadow:
+		0px -1px 3px rgba(0,0,0,0.8),
+		0px 1px 0px rgba(143,146,179,0.3);
+}
+
+.tab-section {
+	position: absolute;
+	top: 24%;
+	left: 11.9%;
+	background: rgba(1, 9, 16, 0.8)/*#01080f*/;
+	padding: 10px 2% 0px 2%;
+	color: #ffff00;
+	float: right;
+	width: 88%;
+	height: 420px;
+	overflow: auto;
+}
+ 
+.small_note {
+	font: 0.6em italic;
+	color: #ffff77;
+}
+
+.small_note img {
+	background: rgbs(0,0,0,0.7);
+}
+
+.feedback_me_form, .feedback_content, .right-bottom, .right-top,  .ui-dialog, .ui-widget, .ui-widget-content, .ui-corner-all, .fm_jquery {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 4%;
+}
+
+.feedback_trigger_text {
+	background: rgba(0, 0, 0, 0.9);
+	
+}
+
+.feedback_trigger.fm_jquery.feedback_trigger_closed.right-top,
+.feedback_trigger.fm_jquery.feedback_trigger_closed.right-bottom {
+	margin-right: -43px !important;
+}
+
+.feedback_trigger.left-top,
+.feedback_trigger.left-bottom,
+.feedback_trigger.right-top,
+.feedback_trigger.right-bottom {
+	width: 3%;
+	height: 100;
+	top: 50%;
+}
+
+.feedback_content.fm_jquery.right-top,
+.feedback_content.fm_jquery.right-bottom {
+	top: 25%;
+}
+
+
+
+
+
+
+/*** Footer CSS ***/
+.footer {
+    position: fixed;
+    top: 96%;
+    left: 0%;    
+    width: 100%;
+	border-top: #fff 1px solid; 
+	z-index: 9999;
+}
+
+.pull_left {
+	position: relative;
+	top: 0%;
+    margin: 0% 0% 5% 5%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.pull_right {
+	position: relative;
+	top: 0%;
+    margin: 0% 5% 5% 0%;
+    float: right;
+    padding-bottom: 20px;
+}
